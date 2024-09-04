@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "trava-ofc"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -69,17 +69,17 @@
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
-      "required": false,
+      "required": true,
       "value": "_Antilink Detected &mention kicked_"
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
-      "required": false,
+      "required": true,
       "value": "_Antispam Detected &mention kicked_"
     },
     "ANTIWORDS_MSG": {
       "description": "Message send when antiword.",
-      "required": false,
+      "required": true,
       "value": "_Antiword Detected &mention kicked_"
     },
     "ANTIWORDS": {
@@ -99,8 +99,8 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
@@ -114,8 +114,8 @@
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
-      "required": false,
-      "value": "null"
+      "required": true,
+      "value": "true"
     },
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
